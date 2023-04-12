@@ -1,0 +1,11 @@
+.pomodoro-clock { 
+    background-color: rgb(31, 43, 9);
+}
+
+p { 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5.5rem;
+    font-style: bold;
+    color: bisque;
+}
+
