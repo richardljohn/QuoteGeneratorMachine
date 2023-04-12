@@ -1,0 +1,78 @@
+.quote-box { 
+    background-color:blanchedalmond;
+    width: 500px;
+    height: 300px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text, .new-quote { 
+    text-align: center;
+}
+
+.author { 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    padding-right: 40px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.quote-text { 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+}
+
+.btn-prev-quote { 
+    background-color:rgb(199, 199, 199);
+    padding: 15px 15px;
+    margin-right: 2px;
+    border-radius: 12px;
+    color:darkgreen;
+    border: none;
+    font-size: 15px;
+}
+
+.btn-prev-quote:hover { 
+    color:coral;
+}
+
+.btn-quote { 
+    background-color:rgb(88, 64, 62);
+    padding: 15px 15px;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.btn-quote:hover {
+    color: red;
+}
+
+.twitter-link, .tumblr-link { 
+    font-size: 20px;
+}
+
+.tumblr-link { 
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+
+/* Phone View */
+@media screen and (max-width: 600px){
+  .quote-box { 
+    height: 75%;
+    width: 100%;
+  }
+  .quote-box p { 
+      font-size: 40px;
+  }
+}
